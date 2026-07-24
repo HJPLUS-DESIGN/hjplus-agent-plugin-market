@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "kanban",
+    "name": "專案看板",
+    "description": "專案管理看板——多專案、總覽/看板/月曆、子任務、標籤、查詢語言",
+    "icon": "square-kanban",
+    "author": "HJPLUS",
+    "version": "0.3.0",
+    "min_app_version": "0.10.0",
+    "edition": "public",
+    "download_url": "https://github.com/h30190/hjplus-agent-plugin-market/releases/download/kanban-v0.3.0/kanban-0.3.0-public.zip",
+    "sha256": "2d29a57c8379224519c50aaef7aefa408c34dc9922707dbe54941dd477a1a41c",
+    "size": 5784010
+  }
+]
