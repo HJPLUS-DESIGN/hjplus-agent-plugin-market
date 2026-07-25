@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HJPLUS 外掛市集 · HJPLUS.DESIGN Agent Plugin Market</title>
+<meta name="description" content="HJPLUS Desktop Agent 官方外掛市集——瀏覽外掛功能，在 app 內一鍵安裝。" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧩</text></svg>" />
+<style>
+  :root {
+    --bg: #0d0e12; --bg2: #131419; --panel: #171922; --panel2: #1d2029;
+    --border: rgba(255,255,255,.09); --border2: rgba(255,255,255,.14);
+    --text: #e8eaed; --dim: #9aa0ac; --faint: #6b7280;
+    --accent: #3b82f6; --accent2: #60a5fa; --ok: #34d399;
+    --free: #34d399;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Segoe UI", "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
+    background: radial-gradient(1200px 600px at 50% -10%, #1a1d2b 0%, var(--bg) 55%) fixed;
+    color: var(--text); line-height: 1.6; min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  header { text-align: center; padding: 72px 24px 40px; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px; font-size: 13px;
+    letter-spacing: .18em; text-transform: uppercase; color: var(--dim);
+    border: 1px solid var(--border); border-radius: 999px; padding: 6px 16px; margin-bottom: 24px;
+  }
+  h1 { font-size: clamp(30px, 5vw, 46px); font-weight: 800; letter-spacing: -.02em; line-height: 1.15; }
+  h1 .grad { background: linear-gradient(90deg, var(--accent2), #a78bfa); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  header p { color: var(--dim); font-size: 17px; max-width: 620px; margin: 18px auto 0; }
+
+  /* Install callout */
+  .install {
+    max-width: 760px; margin: 28px auto 0; background: linear-gradient(180deg, var(--panel), var(--bg2));
+    border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px;
+    display: flex; align-items: center; gap: 16px; text-align: left;
+  }
+  .install .ico { flex: none; width: 44px; height: 44px; border-radius: 12px; background: rgba(59,130,246,.14); color: var(--accent2); display: grid; place-items: center; }
+  .install b { color: var(--text); }
+  .install .path { color: var(--accent2); font-weight: 600; white-space: nowrap; }
+  .install small { color: var(--dim); }
+
+  /* Grid */
+  main { padding: 48px 0 32px; }
+  .sec-title { display: flex; align-items: baseline; gap: 12px; margin: 0 4px 20px; }
+  .sec-title h2 { font-size: 20px; font-weight: 700; }
+  .sec-title span { color: var(--faint); font-size: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; }
+
+  /* Card */
+  .card {
+    background: linear-gradient(180deg, var(--panel), var(--bg2));
+    border: 1px solid var(--border); border-radius: 18px; padding: 22px;
+    display: flex; flex-direction: column; gap: 14px; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+  }
+  .card:hover { transform: translateY(-3px); border-color: var(--border2); box-shadow: 0 12px 40px rgba(0,0,0,.35); }
+  .card-head { display: flex; align-items: flex-start; gap: 14px; }
+  .card-ico { flex: none; width: 52px; height: 52px; border-radius: 14px; background: rgba(59,130,246,.13); color: var(--accent2); display: grid; place-items: center; border: 1px solid rgba(59,130,246,.2); }
+  .card-ico svg { width: 26px; height: 26px; }
+  .card-title { flex: 1; min-width: 0; }
+  .card-title h3 { font-size: 19px; font-weight: 700; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .badge { font-size: 11px; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--border); color: var(--dim); }
+  .badge.free { color: var(--free); border-color: rgba(52,211,153,.3); background: rgba(52,211,153,.08); font-weight: 600; }
+  .badge.ver { color: var(--accent2); border-color: rgba(96,165,250,.28); }
+  .tagline { font-size: 15px; color: var(--text); font-weight: 500; }
+  .desc { font-size: 13.5px; color: var(--dim); }
+  .features { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
+  .features li { display: flex; gap: 9px; font-size: 13.5px; color: var(--dim); }
+  .features li svg { flex: none; width: 16px; height: 16px; color: var(--ok); margin-top: 3px; }
+  .card-foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--faint); }
+  .card-foot .author { display: inline-flex; align-items: center; gap: 6px; }
+
+  .state { text-align: center; color: var(--dim); padding: 60px 0; }
+  .state svg { width: 40px; height: 40px; color: var(--faint); margin-bottom: 12px; }
+
+  /* Footer */
+  footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 32px 24px 48px; text-align: center; color: var(--faint); font-size: 13px; }
+  footer .row { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+  footer a:hover { color: var(--accent2); }
+
+  @media (max-width: 640px) {
+    header { padding: 48px 20px 28px; }
+    .install { flex-direction: column; align-items: flex-start; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="brand"><span>🧩</span> HJPLUS.DESIGN Agent Plugin Market</div>
+    <h1>HJPLUS <span class="grad">外掛市集</span></h1>
+    <p>擴充你的 HJPLUS Desktop Agent —— 官方策展的外掛，一鍵安裝、即裝即用。</p>
+
+    <div class="install">
+      <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+      <div>
+        <div>在桌面 App 裡：<b>設定</b> → <b>外掛模組</b> → <span class="path">探索市集</span>，點「安裝」即可。</div>
+        <small>安裝後到「已安裝」啟用（首次會請你確認權限）。所有外掛都是<b style="color:var(--free)">免費版</b>。</small>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="sec-title">
+      <h2>可用外掛</h2>
+      <span id="count"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="state" class="state">載入外掛清單中…</div>
+  </main>
+
+  <footer>
+    <div class="row">
+      <span>© 2026 HJPLUS.DESIGN Ltd.</span>
+      <a href="https://www.hjplusdesign.com/product/hjplus-desktop-agent/" target="_blank" rel="noopener">HJPLUS Desktop Agent</a>
+    </div>
+    <div>官方策展的外掛市集 · 所有外掛皆為免費版</div>
+  </footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+(function () {
+  var grid = document.getElementById('grid');
+  var state = document.getElementById('state');
+  var count = document.getElementById('count');
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]; }); }
+
+  function fmtSize(n) { if (!n) return ''; var mb = n / 1048576; return (mb >= 1 ? mb.toFixed(1) + ' MB' : Math.round(n/1024) + ' KB'); }
+
+  function card(p) {
+    var feats = (p.features || []).map(function (f) {
+      return '<li><svg data-lucide="check"></svg><span>' + esc(f) + '</span></li>';
+    }).join('');
+    var featBlock = feats ? '<ul class="features">' + feats + '</ul>' : '';
+    var tagline = p.tagline ? '<div class="tagline">' + esc(p.tagline) + '</div>' : '';
+    var desc = (!p.tagline && p.description) ? '<div class="tagline">' + esc(p.description) + '</div>' : (p.tagline && p.description ? '<div class="desc">' + esc(p.description) + '</div>' : '');
+    var iconName = /^[a-z0-9-]+$/.test(p.icon || '') ? p.icon : 'puzzle';
+    return '' +
+      '<article class="card">' +
+        '<div class="card-head">' +
+          '<div class="card-ico"><svg data-lucide="' + esc(iconName) + '"></svg></div>' +
+          '<div class="card-title">' +
+            '<h3>' + esc(p.name || p.id) + '</h3>' +
+            '<div class="badges">' +
+              '<span class="badge free">免費版</span>' +
+              '<span class="badge ver">v' + esc(p.version || '?') + '</span>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+        tagline + desc + featBlock +
+        '<div class="card-foot">' +
+          '<span class="author">' + esc(p.author || 'HJPLUS') + '</span>' +
+          '<span>' + esc(fmtSize(p.size)) + '</span>' +
+        '</div>' +
+      '</article>';
+  }
+
+  fetch('registry.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (list) {
+      list = Array.isArray(list) ? list : [];
+      if (!list.length) {
+        state.innerHTML = '<svg data-lucide="package-open"></svg><div>市集即將上架外掛，敬請期待。</div>';
+      } else {
+        grid.innerHTML = list.map(card).join('');
+        count.textContent = list.length + ' 個外掛';
+        state.style.display = 'none';
+      }
+      if (window.lucide) lucide.createIcons();
+    })
+    .catch(function (e) {
+      state.innerHTML = '<svg data-lucide="triangle-alert"></svg><div>清單載入失敗（' + esc(e.message) + '）。請稍後再試。</div>';
+      if (window.lucide) lucide.createIcons();
+    });
+})();
+</script>
+</body>
+</html>
