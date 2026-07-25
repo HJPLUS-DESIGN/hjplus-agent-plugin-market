@@ -13,11 +13,11 @@
     ],
     "icon": "square-kanban",
     "author": "HJPLUS",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "min_app_version": "0.10.0",
     "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.0/kanban-0.3.0-public.zip",
-    "sha256": "2d29a57c8379224519c50aaef7aefa408c34dc9922707dbe54941dd477a1a41c",
-    "size": 5784010
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.1/kanban-0.3.1-public.zip",
+    "sha256": "c676beb1e9849805487a754075626fab67a42eb34118280df9bc7b86128ae4c1",
+    "size": 5783912
   }
 ]
