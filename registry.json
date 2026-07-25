@@ -19,5 +19,26 @@
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.1/kanban-0.3.1-public.zip",
     "sha256": "c676beb1e9849805487a754075626fab67a42eb34118280df9bc7b86128ae4c1",
     "size": 5783912
+  },
+  {
+    "id": "business-cards",
+    "name": "名片管理",
+    "description": "AI 名片辨識與管理——上傳/拍照自動抽取聯絡資訊，智能分類、加權搜尋、CSV 匯入匯出",
+    "tagline": "拍一張名片，聯絡資訊自動入庫",
+    "features": [
+      "AI 辨識：上傳/拍照名片，自動抽取姓名、公司、職稱、電話、Email、地址",
+      "智能分類：自動推斷產業、職級、地區、職務類型",
+      "加權搜尋 + 重複偵測，名片再多也找得到",
+      "CSV 匯入匯出，跟既有名片庫互通",
+      "辨識用你 agent 的視覺模型，資料存本機、不進工作區"
+    ],
+    "icon": "contact",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "edition": "public",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.0/business-cards-0.1.0-public.zip",
+    "sha256": "5116b388d764a308ccdd61a892e5948d1004dde763a12db8c1fbc54d69f3102c",
+    "size": 5849515
   }
 ]
