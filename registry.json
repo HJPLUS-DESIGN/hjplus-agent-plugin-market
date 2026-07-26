@@ -34,11 +34,11 @@
     ],
     "icon": "contact",
     "author": "HJPLUS",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "min_app_version": "0.10.10",
     "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.0/business-cards-0.1.0-public.zip",
-    "sha256": "5116b388d764a308ccdd61a892e5948d1004dde763a12db8c1fbc54d69f3102c",
-    "size": 5849515
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.1/business-cards-0.1.1-public.zip",
+    "sha256": "58200373f0efaa9b92064b5d07eee78e02e6f80c018f13418b73d40d81ca01bf",
+    "size": 5775189
   }
 ]
