@@ -13,12 +13,12 @@
     ],
     "icon": "square-kanban",
     "author": "HJPLUS",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "min_app_version": "0.10.0",
     "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.1/kanban-0.3.1-public.zip",
-    "sha256": "c676beb1e9849805487a754075626fab67a42eb34118280df9bc7b86128ae4c1",
-    "size": 5783912
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.2/kanban-0.3.2-public.zip",
+    "sha256": "f93b6dbe521e3f3b9cc7d5d9810c0fd7aae4872eea66444f84e4f9e42b3d636a",
+    "size": 5784025
   },
   {
     "id": "business-cards",
@@ -34,11 +34,74 @@
     ],
     "icon": "contact",
     "author": "HJPLUS",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "min_app_version": "0.10.10",
     "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.1/business-cards-0.1.1-public.zip",
-    "sha256": "58200373f0efaa9b92064b5d07eee78e02e6f80c018f13418b73d40d81ca01bf",
-    "size": 5775189
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.2/business-cards-0.1.2-public.zip",
+    "sha256": "a90bd123e860f542715052c90ad45abe303a46f5ed9b37c232783b6c8caf1384",
+    "size": 5780986
+  },
+  {
+    "id": "tender-crawler",
+    "name": "台灣政府標案查詢",
+    "description": "政府標案查詢——關鍵字直查政府電子採購網（web.pcc.gov.tw）可投標案件，回傳結構化清單含剩餘天數／等標期，可收藏追蹤",
+    "tagline": "一句關鍵字，直查全台政府標案",
+    "features": [
+      "關鍵字直查政府電子採購網，回結構化清單（案號／機關／截止日／預算）",
+      "剩餘天數與等標期自動計算、到期上色提醒",
+      "5 欄位排序（剩餘天數／截止日／公告日／預算／機關）",
+      "一鍵收藏追蹤、查看原案原始網頁",
+      "免費版每次查 15 筆、收藏 10 筆"
+    ],
+    "icon": "gavel",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "edition": "public",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/tender-crawler-v0.1.0/tender-crawler-0.1.0-public.zip",
+    "sha256": "a44fbe4ecabc783b606694e43a77502a9f72fa499d4432d046c04d849c5fd46e",
+    "size": 5416774
+  },
+  {
+    "id": "pcc-downloader",
+    "name": "工程會施工規範工具",
+    "description": "從公共工程雲端服務網搜尋並批次下載施工綱要規範文件（DOC/ODT/XLS/ODS/PDF），純 HTTP 直連、免瀏覽器",
+    "tagline": "施工綱要規範，搜尋即下載",
+    "features": [
+      "直查公共工程施工綱要規範，依章節／關鍵字搜尋",
+      "DOC/ODT/XLS/ODS/PDF 多格式下載",
+      "批次下載多筆規範，一次備齊整章",
+      "純 HTTP 直連、免瀏覽器，下載落系統下載資料夾",
+      "免費版每日下載 5 份、單次批次 3 筆"
+    ],
+    "icon": "file-down",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "edition": "public",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/pcc-downloader-v0.1.0/pcc-downloader-0.1.0-public.zip",
+    "sha256": "6eaea882002519e70008fbd99131a001bf023717d694f38f7965fdd24d1829a9",
+    "size": 5105182
+  },
+  {
+    "id": "building-code-tracker",
+    "name": "台灣建築法規查詢",
+    "description": "查《建築技術規則》母法條文並追蹤法規異動——條文加權搜尋、章節樹瀏覽、版本快照、條文級 diff、關注訂閱。資料來源＝全國法規資料庫。",
+    "tagline": "建築技術規則，查得到也追得到異動",
+    "features": [
+      "《建築技術規則》條文加權搜尋 + CJK 模糊比對",
+      "章節樹瀏覽、條文全文檢視",
+      "版本快照 + 條文級紅綠 diff，法規異動一目了然",
+      "關注訂閱條號／關鍵字，更新即標記",
+      "資料來源＝全國法規資料庫，全功能免費"
+    ],
+    "icon": "scale",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "edition": "public",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.1.0/building-code-tracker-0.1.0-public.zip",
+    "sha256": "74412b7ae56cc69c769e9cb205c78588a510749252e430816fa6f94f14d7dbc3",
+    "size": 8637406
   }
 ]
