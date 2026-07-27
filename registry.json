@@ -112,8 +112,8 @@
     "min_app_version": "0.10.10",
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/pcc-downloader-v0.1.0/pcc-downloader-0.1.0-public.zip",
-    "sha256": "119850c529c20a669d0122193eb49e639697333019e1ab19b54bd7b04e1cd68c",
-    "size": 5105285,
+    "sha256": "a262ece43205f95f13f2dfaa5564b697cb7cd8f2a7740e58f268bf0e20f7359c",
+    "size": 5105883,
     "category": [
       "資料擷取與下載"
     ],
