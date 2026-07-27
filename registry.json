@@ -18,7 +18,16 @@
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.2/kanban-0.3.2-public.zip",
     "sha256": "f93b6dbe521e3f3b9cc7d5d9810c0fd7aae4872eea66444f84e4f9e42b3d636a",
-    "size": 5784025
+    "size": 5784025,
+    "category": [
+      "專案與生產力"
+    ],
+    "tags": [
+      "看板",
+      "專案管理",
+      "Kanban",
+      "工作流"
+    ]
   },
   {
     "id": "business-cards",
@@ -39,7 +48,20 @@
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.1.2/business-cards-0.1.2-public.zip",
     "sha256": "a90bd123e860f542715052c90ad45abe303a46f5ed9b37c232783b6c8caf1384",
-    "size": 5780986
+    "size": 5780986,
+    "category": [
+      "文件與辨識",
+      "專案與生產力"
+    ],
+    "tags": [
+      "名片",
+      "OCR",
+      "視覺辨識",
+      "聯絡人"
+    ],
+    "requires": [
+      "vision"
+    ]
   },
   {
     "id": "tender-crawler",
@@ -60,7 +82,17 @@
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/tender-crawler-v0.1.0/tender-crawler-0.1.0-public.zip",
     "sha256": "a44fbe4ecabc783b606694e43a77502a9f72fa499d4432d046c04d849c5fd46e",
-    "size": 5416774
+    "size": 5416774,
+    "category": [
+      "資料擷取與下載",
+      "建築與法規"
+    ],
+    "tags": [
+      "政府標案",
+      "招標",
+      "公共工程",
+      "爬蟲"
+    ]
   },
   {
     "id": "pcc-downloader",
@@ -81,7 +113,15 @@
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/pcc-downloader-v0.1.0/pcc-downloader-0.1.0-public.zip",
     "sha256": "6eaea882002519e70008fbd99131a001bf023717d694f38f7965fdd24d1829a9",
-    "size": 5105182
+    "size": 5105182,
+    "category": [
+      "資料擷取與下載"
+    ],
+    "tags": [
+      "政府採購",
+      "下載",
+      "公共工程"
+    ]
   },
   {
     "id": "building-code-tracker",
@@ -102,7 +142,15 @@
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.1.0/building-code-tracker-0.1.0-public.zip",
     "sha256": "74412b7ae56cc69c769e9cb205c78588a510749252e430816fa6f94f14d7dbc3",
-    "size": 8637406
+    "size": 8637406,
+    "category": [
+      "建築與法規"
+    ],
+    "tags": [
+      "建築法規",
+      "法規追蹤",
+      "建築"
+    ]
   },
   {
     "id": "aec-kb",
@@ -122,6 +170,18 @@
     "min_app_version": "0.10.10",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/aec-kb-v0.1.0/aec-kb-0.1.0.zip",
     "sha256": "ef436e6b8f26381db4ab87e718a63fb109d59db5bed4105069407b2533407247",
-    "size": 4951060
+    "size": 4951060,
+    "category": [
+      "建築與法規"
+    ],
+    "tags": [
+      "AEC",
+      "建築",
+      "工程",
+      "營造",
+      "法規",
+      "知識圖譜",
+      "知識庫"
+    ]
   }
 ]
