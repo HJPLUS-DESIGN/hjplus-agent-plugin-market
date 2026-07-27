@@ -103,5 +103,25 @@
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.1.0/building-code-tracker-0.1.0-public.zip",
     "sha256": "74412b7ae56cc69c769e9cb205c78588a510749252e430816fa6f94f14d7dbc3",
     "size": 8637406
+  },
+  {
+    "id": "aec-kb",
+    "name": "台灣 AEC 知識庫",
+    "description": "用自然語言查詢台灣建築×工程×營造（AEC）開源知識庫，並以 D3 知識圖譜瀏覽知識點關聯——資料以 GitHub 為準、抓取即快取，離線可用",
+    "tagline": "自然語言查台灣建築法規×知識圖譜，一鍵裝進 agent",
+    "features": [
+      "自然語言查 79 個知識點：法規門檻、申辦流程、設計標準、實務陷阱",
+      "D3 力導向知識圖譜：以知識點（domain）為單位瀏覽關聯，搜尋即高亮跳轉",
+      "點知識點讀 SKILL.md 全文＋中文導讀，附 GitHub 出處與 CC BY-SA 授權",
+      "一鍵把知識點技能安裝進你的 agent，日後依情境自動觸發",
+      "內容以 GitHub 為準、抓取即快取，離線可降級瀏覽"
+    ],
+    "icon": "book-open",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/aec-kb-v0.1.0/aec-kb-0.1.0.zip",
+    "sha256": "ef436e6b8f26381db4ab87e718a63fb109d59db5bed4105069407b2533407247",
+    "size": 4951060
   }
 ]
