@@ -6,7 +6,7 @@
     "level": "important",
     "title": "🔔 測試訊息：最新消息功能已上線",
     "body": "這是一則測試公告，用來驗證左下角鈴鐺與面板顯示。看到這則代表 news.json 讀取正常；之後可在市集 repo 的 news.json 增修或刪除。",
-    "link": "https://agent-marketplace.hjplusdesign.com"
+    "plugin_id": "aec-kb"
   },
   {
     "id": "welcome-2026-07",
@@ -15,6 +15,6 @@
     "level": "info",
     "title": "官方外掛市集上線",
     "body": "歡迎使用 HJPLUS 外掛市集。在「探索市集」瀏覽並一鍵安裝外掛；已安裝的外掛有新版時會在這裡提醒。",
-    "link": "https://agent-marketplace.hjplusdesign.com"
+    "cta": "market"
   }
 ]
