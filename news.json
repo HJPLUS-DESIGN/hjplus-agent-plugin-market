@@ -1,5 +1,14 @@
 [
   {
+    "id": "test-2026-07-27",
+    "date": "2026-07-27",
+    "type": "announcement",
+    "level": "important",
+    "title": "🔔 測試訊息：最新消息功能已上線",
+    "body": "這是一則測試公告，用來驗證左下角鈴鐺與面板顯示。看到這則代表 news.json 讀取正常；之後可在市集 repo 的 news.json 增修或刪除。",
+    "link": "https://agent-marketplace.hjplusdesign.com"
+  },
+  {
     "id": "welcome-2026-07",
     "date": "2026-07-27",
     "type": "announcement",
