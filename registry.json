@@ -183,5 +183,38 @@
       "知識圖譜",
       "知識庫"
     ]
+  },
+  {
+    "id": "rfa-browser",
+    "name": "族群資料庫瀏覽器",
+    "description": "不開 Revit 就能瀏覽、整理與檢查 .rfa 族群資料庫——資料夾樹瀏覽、內嵌縮圖、參數/型別、跨版本可視 + 版本相容檢查，純本地解析、免安裝 Revit",
+    "tagline": "不開 Revit，就能翻遍整座族庫",
+    "features": [
+      "資料夾樹瀏覽 .rfa 族庫（VSCode／Bridge 式），直接抽族檔內嵌縮圖、免開 Revit",
+      "看清每顆族的版本、分類、GUID 與各型別的參數值（Width／Material…）",
+      "跨版本可視：Revit 2016–2026 各版族檔都讀得開，免受「高版本開不了」之苦",
+      "版本相容檢查：一鍵掃出版本高於公司標準、你的 Revit 打不開的地雷族檔",
+      "完整檔案管理（全免費）：改名／搬移／新資料夾／刪到回收桶，操作即同步索引",
+      "免費版 1 個庫；七天進階功能試用解鎖版本檢查報告與 CSV 匯出"
+    ],
+    "icon": "package",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.10",
+    "edition": "public",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.1.0/rfa-browser-0.1.0-public.zip",
+    "sha256": "",
+    "size": 0,
+    "category": [
+      "設計工具"
+    ],
+    "tags": [
+      "Revit",
+      "BIM",
+      "族檔",
+      "RFA",
+      "縮圖",
+      "族庫"
+    ]
   }
 ]
