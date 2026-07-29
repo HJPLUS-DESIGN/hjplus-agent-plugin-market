@@ -215,6 +215,17 @@
       "RFA",
       "縮圖",
       "族庫"
+    ],
+    "name_en": "Family Library Browser",
+    "tagline_en": "Browse your whole Revit family library — without opening Revit",
+    "description_en": "Browse, organize, and check .rfa family libraries without opening Revit — folder-tree browsing, embedded thumbnails, parameters/types, cross-version visibility, and version-compatibility checks. Pure local parsing, no Revit install required.",
+    "features_en": [
+      "Folder-tree browsing of .rfa libraries (VSCode/Bridge style); reads embedded thumbnails straight from the files, no Revit needed",
+      "See each family's version, category, GUID, and per-type parameter values (Width, Material…)",
+      "Cross-version visibility: opens family files from Revit 2016–2026 — no more \"newer version won't open\"",
+      "Version compatibility check: one click surfaces \"landmine\" families newer than your company standard that your Revit can't open",
+      "Full file management (free): rename, move, new folder, delete to Recycle Bin — the index syncs as you go",
+      "Free tier: 1 library; a 7-day trial unlocks the version-check report and CSV export"
     ]
   }
 ]
