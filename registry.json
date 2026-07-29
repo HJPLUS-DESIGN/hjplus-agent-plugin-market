@@ -203,8 +203,8 @@
     "min_app_version": "0.10.10",
     "edition": "public",
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.1.0/rfa-browser-0.1.0-public.zip",
-    "sha256": "505bed1db5d7b1e75e4af1f156767f179d55d04073354812d3754f68ad6e3fa9",
-    "size": 6099719,
+    "sha256": "f2906771559ee63b5a1a023e02535225355f4f9fff59e2742672c73677c4268d",
+    "size": 6099846,
     "category": [
       "設計工具"
     ],
