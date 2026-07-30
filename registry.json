@@ -227,5 +227,52 @@
       "Full file management (free): rename, move, new folder, delete to Recycle Bin — the index syncs as you go",
       "Free tier: 1 library; a 7-day trial unlocks the version-check report and CSV export"
     ]
+  },
+  {
+    "id": "fitness-log",
+    "name": "健身飲食日誌",
+    "description": "記錄重訓（每組重量×次數）與飲食（熱量/三大營養素）——內建動作庫、課表範本、訓練量與 1RM 統計，InBody 報表拍照自動填數值",
+    "tagline": "在健身房單手記完一組，讓 agent 當你的教練",
+    "features": [
+      "手機優先：記一組 1 次點擊 0 次打字（「沿用上一組」直接複製上組數值），組間 60 秒記得完",
+      "內建 48 個動作、六大部位全覆蓋；課表範本可存多套、一鍵套用到任何日期",
+      "InBody 報表拍照自動填數值，並像病歷那樣累積判讀——下次量測 AI 會對比上次說過什麼。只存數值、不存照片",
+      "統計圖表：訓練量按部位堆疊、體重與體組成趨勢，可切天／週／月",
+      "36 個 AI 工具：用說的記訓練、查趨勢、依實際歷史排課表與安排漸進負荷",
+      "資料存本機 SQLite，外掛程式無網路能力、不碰你的工作區檔案"
+    ],
+    "icon": "dumbbell",
+    "author": "HJPLUS",
+    "version": "0.1.0",
+    "min_app_version": "0.10.0",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/fitness-log-v0.1.0/fitness-log-0.1.0.zip",
+    "sha256": "c10deecbe08cfe257bbf2604e86967739f975e7042315d858b0ac40f98b69286",
+    "size": 8626442,
+    "category": [
+      "專案與生產力"
+    ],
+    "tags": [
+      "健身",
+      "重訓",
+      "飲食",
+      "熱量",
+      "日誌",
+      "InBody",
+      "體組成"
+    ],
+    "requires": [
+      "vision"
+    ],
+    "name_en": "Fitness & Diet Log",
+    "tagline_en": "Log a set one-handed at the gym; let the agent coach you",
+    "description_en": "Log strength training (weight × reps, per set) and meals (calories and macros) — built-in exercise library, routine templates, training-volume and 1RM stats, plus InBody reports captured by photo and filled in automatically.",
+    "features_en": [
+      "Mobile-first: one tap and zero typing to log a set (\"repeat last set\" copies the previous one) — done inside a 60-second rest",
+      "48 built-in exercises covering all six muscle groups; save multiple routine templates and apply one to any date in a tap",
+      "Photograph an InBody report and the numbers fill themselves in — assessments accumulate like a medical chart, so next time the AI compares against what it said before. Values only; the photo is never stored",
+      "Charts: training volume stacked by muscle group, plus body-weight and body-composition trends — switch between day / week / month",
+      "36 AI tools: log workouts by talking, review trends, and have the agent build routines and progressive overload from your actual history",
+      "Data lives in a local SQLite file; the plugin's server has no network capability and never touches your workspace files"
+    ]
   }
 ]
