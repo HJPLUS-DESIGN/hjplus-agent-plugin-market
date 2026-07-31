@@ -243,11 +243,11 @@
     ],
     "icon": "dumbbell",
     "author": "HJPLUS",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "min_app_version": "0.10.0",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/fitness-log-v0.1.4/fitness-log-0.1.4.zip",
-    "sha256": "2d8f1d593494d95b59e44ae7b91cab8c820d2dff79a6988fff934faa46d8960c",
-    "size": 8640568,
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/fitness-log-v0.1.5/fitness-log-0.1.5.zip",
+    "sha256": "5cc1b56fea76a3a351773cecdc3b0f2ecc851a805bafe8c45725b38888e479c0",
+    "size": 8641223,
     "category": [
       "專案與生產力"
     ],
