@@ -39,13 +39,14 @@
       "智能分類：自動推斷產業、職級、地區、職務類型",
       "加權搜尋 + 重複偵測，名片再多也找得到",
       "CSV 匯入匯出，跟既有名片庫互通",
-      "辨識用你 agent 的視覺模型，資料存本機、不進工作區"
+      "辨識用你 agent 的視覺模型，資料存本機、不進工作區",
+      "免費版最多 50 張名片；面板上直接看得到「47 / 50 張」，不必等存不進去才知道。Pro 不限張數"
     ],
     "icon": "contact",
     "author": "HJPLUS",
     "version": "0.2.1",
-    "min_app_version": "0.10.10",
-    "edition": "public",
+    "min_app_version": "0.11.17",
+    "has_paid_features": true,
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.2.1/business-cards-0.2.1.zip",
     "sha256": "26a29179749f0b86d64fb9c47ad0300648de6e5f5079735147bca5a2ec3e85ec",
     "size": 5915571,
