@@ -126,20 +126,20 @@
   {
     "id": "building-code-tracker",
     "name": "台灣建築法規查詢",
-    "description": "查《建築技術規則》母法條文並追蹤法規異動——條文加權搜尋、章節樹瀏覽、版本快照、條文級 diff、關注訂閱。資料來源＝全國法規資料庫。",
-    "tagline": "建築技術規則，查得到也追得到異動",
+    "description": "查《建築技術規則》總則／設計施工／構造／設備四編與《建築法》的條文並追蹤法規異動——一次搜尋跨全部法規、章節樹瀏覽、每條都附官方原文連結、版本快照、條文級 diff、關注訂閱，收藏依案子分組。資料來源＝全國法規資料庫。",
+    "tagline": "五部建築法規一次查，異動追得到",
     "features": [
-      "《建築技術規則》條文加權搜尋 + CJK 模糊比對",
-      "章節樹瀏覽、條文全文檢視",
+      "一次搜尋跨全部法規：《建築技術規則》四編＋《建築法》，CJK 模糊比對，結果標明條號／章節／篇",
+      "章節樹瀏覽、條文全文檢視，每一條都附全國法規資料庫的官方原文連結",
       "版本快照 + 條文級紅綠 diff，法規異動一目了然",
-      "關注訂閱條號／關鍵字，更新即標記",
-      "資料來源＝全國法規資料庫，全功能免費"
+      "關注訂閱條號或關鍵字，更新即標記；收藏依案子分組，一個案子的條文收在一起",
+      "免費版可同時追 3 個案子、比對 3 個歷史版本；Pro 解除上限，並在 diff 附上修改前後的條文內文"
     ],
     "icon": "scale",
     "author": "HJPLUS",
     "version": "0.7.3",
-    "min_app_version": "0.10.10",
-    "edition": "public",
+    "min_app_version": "0.11.17",
+    "has_paid_features": true,
     "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.7.3/building-code-tracker-0.7.3.zip",
     "sha256": "9b4317634502caad4b63e709087af160d79466d4dd6c4b32111e504666791c8d",
     "size": 10307439,
