@@ -44,12 +44,12 @@
     ],
     "icon": "contact",
     "author": "HJPLUS",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "min_app_version": "0.11.17",
     "has_paid_features": true,
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.2.1/business-cards-0.2.1.zip",
-    "sha256": "26a29179749f0b86d64fb9c47ad0300648de6e5f5079735147bca5a2ec3e85ec",
-    "size": 5915571,
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/business-cards-v0.2.2/business-cards-0.2.2.zip",
+    "sha256": "a445c51d24695efc816ab6cde3ddf5feaf172f8d921eede5af178ad0c4333401",
+    "size": 5916119,
     "category": [
       "文件與辨識",
       "專案與生產力"
