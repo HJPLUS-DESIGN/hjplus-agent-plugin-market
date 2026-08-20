@@ -13,12 +13,11 @@
     ],
     "icon": "square-kanban",
     "author": "HJPLUS",
-    "version": "0.3.2",
-    "min_app_version": "0.10.0",
-    "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.3.2/kanban-0.3.2-public.zip",
-    "sha256": "615f50b13254982f3a7651065a8bd8042a9f5e670a1d284d082355a811ce08eb",
-    "size": 5784586,
+    "version": "0.4.1",
+    "min_app_version": "0.11.17",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.4.1/kanban-0.4.1.zip",
+    "sha256": "192ee9987f56a8d3138380fe2f60e988327fe9fd26f1a605101deecc11b0749e",
+    "size": 8196661,
     "category": [
       "專案與生產力"
     ],
@@ -27,7 +26,8 @@
       "專案管理",
       "Kanban",
       "工作流"
-    ]
+    ],
+    "has_paid_features": true
   },
   {
     "id": "business-cards",
