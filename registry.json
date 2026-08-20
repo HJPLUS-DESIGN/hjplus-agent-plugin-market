@@ -138,12 +138,12 @@
     ],
     "icon": "scale",
     "author": "HJPLUS",
-    "version": "0.7.7",
+    "version": "0.7.8",
     "min_app_version": "0.11.17",
     "has_paid_features": true,
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.7.7/building-code-tracker-0.7.7.zip",
-    "sha256": "52ff40a16c0abbfe50f6e2d1a2ab10b0fe3a851bd167e8ab460ecf9df42c394a",
-    "size": 10494930,
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/building-code-tracker-v0.7.8/building-code-tracker-0.7.8.zip",
+    "sha256": "e2fb17997f65b056975f583d6501329568cf1284171d5741bd67e6ccd8f19016",
+    "size": 11611585,
     "category": [
       "建築與法規"
     ],
