@@ -200,12 +200,11 @@
     ],
     "icon": "package",
     "author": "HJPLUS",
-    "version": "0.1.0",
-    "min_app_version": "0.10.10",
-    "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.1.0/rfa-browser-0.1.0-public.zip",
-    "sha256": "f2906771559ee63b5a1a023e02535225355f4f9fff59e2742672c73677c4268d",
-    "size": 6099846,
+    "version": "0.2.1",
+    "min_app_version": "0.11.17",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.2.1/rfa-browser-0.2.1.zip",
+    "sha256": "295c30086e9eab5ca4453e4df9e3458f21de7e51cd6f0b3678f941be78cdbf40",
+    "size": 8448532,
     "category": [
       "設計工具"
     ],
@@ -227,7 +226,8 @@
       "Version compatibility check: one click surfaces \"landmine\" families newer than your company standard that your Revit can't open",
       "Full file management (free): rename, move, new folder, delete to Recycle Bin — the index syncs as you go",
       "Free tier: 1 library; a 7-day trial unlocks the version-check report and CSV export"
-    ]
+    ],
+    "has_paid_features": true
   },
   {
     "id": "fitness-log",
