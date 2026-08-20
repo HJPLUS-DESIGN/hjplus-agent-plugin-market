@@ -109,12 +109,11 @@
     ],
     "icon": "file-down",
     "author": "HJPLUS",
-    "version": "0.1.0",
-    "min_app_version": "0.10.10",
-    "edition": "public",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/pcc-downloader-v0.1.0/pcc-downloader-0.1.0-public.zip",
-    "sha256": "a262ece43205f95f13f2dfaa5564b697cb7cd8f2a7740e58f268bf0e20f7359c",
-    "size": 5105883,
+    "version": "0.2.1",
+    "min_app_version": "0.11.17",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/pcc-downloader-v0.2.1/pcc-downloader-0.2.1.zip",
+    "sha256": "046412a11be4334d8eec6478e0aa3567e02ff9cc2d65a069a32547772a96355c",
+    "size": 6432647,
     "category": [
       "資料擷取與下載"
     ],
@@ -122,7 +121,8 @@
       "政府採購",
       "下載",
       "公共工程"
-    ]
+    ],
+    "has_paid_features": true
   },
   {
     "id": "building-code-tracker",
