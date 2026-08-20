@@ -167,11 +167,11 @@
     ],
     "icon": "book-open",
     "author": "HJPLUS",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "min_app_version": "0.10.10",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/aec-kb-v0.1.0/aec-kb-0.1.0.zip",
-    "sha256": "182cfa8eae61f4303da45eb32b83a35c21171af86ded23f3136ec3ade571e5fa",
-    "size": 4953380,
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/aec-kb-v0.1.1/aec-kb-0.1.1.zip",
+    "sha256": "1c99787e0001c26c837bf83d10378212d83499e7d55e5960ea3384f627b3c585",
+    "size": 6458513,
     "category": [
       "建築與法規"
     ],
