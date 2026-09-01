@@ -290,11 +290,11 @@
     ],
     "icon": "layout-dashboard",
     "author": "HJPLUS",
-    "version": "",
-    "min_app_version": "",
-    "download_url": "",
-    "sha256": "",
-    "size": 0,
+    "version": "0.1.0",
+    "min_app_version": "0.11.28",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/google-workspace-v0.1.0/google-workspace-0.1.0.zip",
+    "sha256": "9ee8cfe04c8b816fccda45a9c1c748228cc37bcd3473d67ae71337a2ec02d55a",
+    "size": 12801242,
     "category": [
       "專案與生產力"
     ],
