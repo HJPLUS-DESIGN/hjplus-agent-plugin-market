@@ -275,5 +275,45 @@
       "36 AI tools: log workouts by talking, review trends, and have the agent build routines and progressive overload from your actual history",
       "Data lives in a local SQLite file; the plugin's server has no network capability and never touches your workspace files"
     ]
+  },
+  {
+    "id": "google-workspace",
+    "name": "Google Workspace",
+    "description": "用 AI 查你的 Gmail、行事曆、雲端硬碟、文件、試算表、簡報、待辦、通訊錄與表單。需自備 Google OAuth 用戶端（面板內附逐步教學與直達連結）",
+    "tagline": "把 Google 帳號接進來，讓 agent 直接查",
+    "features": [
+      "九個服務：Gmail、Calendar、Drive、Docs、Sheets、Slides、Tasks、通訊錄、Forms",
+      "授權即啟用：勾了哪些範圍就有哪些工具，不必再設定一次",
+      "可同時連工作與私人帳號，各自授權、各自的範圍",
+      "預設全唯讀。建立行程與建立草稿要另外勾，且沒有任何刪除權限",
+      "憑證用 Windows DPAPI 加密存在本機，不經過我們的伺服器"
+    ],
+    "icon": "layout-dashboard",
+    "author": "HJPLUS",
+    "version": "",
+    "min_app_version": "",
+    "download_url": "",
+    "sha256": "",
+    "size": 0,
+    "category": [
+      "專案與生產力"
+    ],
+    "tags": [
+      "Gmail",
+      "行事曆",
+      "雲端硬碟",
+      "Google",
+      "OAuth"
+    ],
+    "name_en": "Google Workspace",
+    "tagline_en": "Connect your Google account and let the agent read it",
+    "description_en": "Have the AI read your Gmail, Calendar, Drive, Docs, Sheets, Slides, Tasks, Contacts and Forms. Requires your own Google OAuth client — the panel walks you through it with direct links.",
+    "features_en": [
+      "Nine services: Gmail, Calendar, Drive, Docs, Sheets, Slides, Tasks, Contacts and Forms",
+      "Scopes are the only switch: whatever you grant becomes the tools the agent gets — nothing to configure twice",
+      "Hold your work and personal accounts at once, each with its own scopes",
+      "Read-only by default. Creating events and drafts are separate opt-ins, and no scope can delete anything",
+      "Credentials are encrypted on your machine with Windows DPAPI and never reach our servers"
+    ]
   }
 ]
