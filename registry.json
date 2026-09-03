@@ -200,11 +200,11 @@
     ],
     "icon": "package",
     "author": "HJPLUS",
-    "version": "0.2.1",
-    "min_app_version": "0.11.17",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.2.1/rfa-browser-0.2.1.zip",
-    "sha256": "295c30086e9eab5ca4453e4df9e3458f21de7e51cd6f0b3678f941be78cdbf40",
-    "size": 8448532,
+    "version": "0.2.2",
+    "min_app_version": "0.11.29",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/rfa-browser-v0.2.2/rfa-browser-0.2.2.zip",
+    "sha256": "e4a61146f15fe2844ef729c3b61a2fec41a1dcccc7b5f7b79868e985425f7a27",
+    "size": 8457419,
     "category": [
       "設計工具"
     ],
