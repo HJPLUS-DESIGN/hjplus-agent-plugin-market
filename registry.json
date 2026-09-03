@@ -78,11 +78,11 @@
     ],
     "icon": "gavel",
     "author": "HJPLUS",
-    "version": "0.2.1",
-    "min_app_version": "0.11.17",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/tender-crawler-v0.2.1/tender-crawler-0.2.1.zip",
-    "sha256": "40d9b436d30dc742ce169e84dca4a74377ee6b9243d4772ce6da583e7e95ab10",
-    "size": 6768029,
+    "version": "0.2.2",
+    "min_app_version": "0.11.29",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/tender-crawler-v0.2.2/tender-crawler-0.2.2.zip",
+    "sha256": "e1554b30ee4034b8de9eafec97a5acaf8991687efab672649dfc0b3656c1bb46",
+    "size": 6773205,
     "category": [
       "資料擷取與下載",
       "建築與法規"
