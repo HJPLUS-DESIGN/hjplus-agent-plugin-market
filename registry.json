@@ -13,11 +13,11 @@
     ],
     "icon": "square-kanban",
     "author": "HJPLUS",
-    "version": "0.4.1",
-    "min_app_version": "0.11.17",
-    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.4.1/kanban-0.4.1.zip",
-    "sha256": "192ee9987f56a8d3138380fe2f60e988327fe9fd26f1a605101deecc11b0749e",
-    "size": 8196661,
+    "version": "0.4.2",
+    "min_app_version": "0.11.29",
+    "download_url": "https://github.com/HJPLUS-DESIGN/hjplus-agent-plugin-market/releases/download/kanban-v0.4.2/kanban-0.4.2.zip",
+    "sha256": "6c929b6090f30cc446b88ade4f58033c64ff21109d915d19f073fe38d2b87d9a",
+    "size": 8204706,
     "category": [
       "專案與生產力"
     ],
