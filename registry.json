@@ -285,7 +285,7 @@
       "九個服務：Gmail、Calendar、Drive、Docs、Sheets、Slides、Tasks、通訊錄、Forms",
       "授權即啟用：勾了哪些範圍就有哪些工具，不必再設定一次",
       "可同時連工作與私人帳號，各自授權、各自的範圍",
-      "預設全唯讀。建立行程與建立草稿要另外勾，且沒有任何刪除權限",
+      "預設全唯讀。建立與修改行程、建立草稿要另外勾，且沒有任何刪除權限",
       "憑證用 Windows DPAPI 加密存在本機，不經過我們的伺服器"
     ],
     "icon": "layout-dashboard",
@@ -312,7 +312,7 @@
       "Nine services: Gmail, Calendar, Drive, Docs, Sheets, Slides, Tasks, Contacts and Forms",
       "Scopes are the only switch: whatever you grant becomes the tools the agent gets — nothing to configure twice",
       "Hold your work and personal accounts at once, each with its own scopes",
-      "Read-only by default. Creating events and drafts are separate opt-ins, and no scope can delete anything",
+      "Read-only by default. Creating and editing events, and creating drafts, are separate opt-ins, and no scope can delete anything",
       "Credentials are encrypted on your machine with Windows DPAPI and never reach our servers"
     ]
   }
